@@ -3,8 +3,8 @@ import React from 'react';
 const Banner = () => {
   return (
     <div className="py-6 border-t border-gray-800 mt-4 ">
-      <div className="container relative max-w-[90%] lg:left-20 text-right ">
-        <p className="text-sm font-medium text-gray-400">
+      <div className="container relative max-w-[90%] lg:left-20 text-right">
+        <p className="text-sm font-medium text-gray-400 ">
           Designed and Developed by&nbsp;
           <a 
             className="underline underline-offset-2 hover:text-foreground transition" 

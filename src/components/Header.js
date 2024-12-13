@@ -1,10 +1,10 @@
 import React from "react";
-import profile from "C:/Users/shrekar reddy/Desktop/portfolio-starter/src/components/profile.png";
+import profile from './profile.png'; // Use relative path
 
 const Header = () => {
   return (
     <div>
-      <div className="cointainer px-24 relative max-w-[100%] min-h-[100svh] flex flex-col items-center justify-center gap-20 bg-black text-white">
+      <div className="container px-24 relative max-w-[100%] min-h-[100svh] flex flex-col items-center justify-center gap-20 bg-black text-white">
         {/* Resume Button */}
         <div className="absolute top-10 left-20 hidden md:block z-20">
           <a
@@ -121,7 +121,7 @@ const Header = () => {
               height="320"
               decoding="async"
               className="object-cover h-40 w-40 lg:h-52 lg:w-52 group-hover:scale-110 transition duration-700 ease-in-out bg-black"
-              src={profile}
+              src={profile} // This will now work with the correct relative path
             />
           </div>
         </div>
