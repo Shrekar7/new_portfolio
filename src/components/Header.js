@@ -28,7 +28,7 @@ const Header = () => {
         </div>
 
         {/* Social Links */}
-        <div className="flex items-center gap-4 absolute top-8 right-20 md:top-10 z-20">
+        <div className="flex items-center gap-4 absolute md:top-10 top-12 right-1 transform -translate-x-1/2 z-20">
           {/* Email Icon */}
           <a
             aria-label="email"
@@ -108,12 +108,12 @@ const Header = () => {
 
         {/* Heading and Profile */}
         <div className="group relative text-center">
-          <h1 className="scroll-m-20 text-7xl sm:text-9xl font-extrabold tracking-tight lg:text-10xl leading-none mb-28">
+          <h1 className="scroll-m-20 text-6xl sm:text-9xl font-extrabold tracking-tight lg:text-10xl leading-none mb-28">
             <span className="font-primary whitespace-nowrap duration-500 ease-in-out transition bg-gradient-to-r from-[#ff80b5] to-[#9089fc] bg-clip-text text-transparent">
               Srikar Reddy
             </span>
           </h1>
-          <div className="rounded-2xl shadow-2xl shadow-purple-600 h-40 w-40 lg:h-52 lg:w-52 transition absolute -bottom-6 lg:-bottom-14 left-1/2 transform -translate-x-1/2 overflow-hidden">
+          <div className="rounded-2xl shadow-2xl shadow-purple-600 h-40 w-40 lg:h-52 lg:w-52 transition absolute -bottom-8 lg:-bottom-14 left-1/2 transform -translate-x-1/2 overflow-hidden">
             <img
               alt="profile-photo"
               loading="lazy"
@@ -130,7 +130,7 @@ const Header = () => {
         <p className="hidden lg:block absolute bottom-9 font-secondary left-24 text-2xl text-gray-400 text-muted-foreground whitespace-nowrap">
           Software Developer and Tech Enthusiast
         </p>
-        <p className="lg:hidden text-xl text-white text-center font-medium text-muted-foreground">
+        <p className="lg:hidden text-xl text-gray-500 text-center font-primary text-muted-foreground">
           Focused On Building Quality Experiences
         </p>
         <p className="hidden lg:block absolute bottom-9 right-24 text-2xl font-secondary text-gray-400 text-muted-foreground whitespace-nowrap">

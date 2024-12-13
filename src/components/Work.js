@@ -4,7 +4,7 @@ const Work = () => {
   return (
     <div
       id="work"
-      className="container flex flex-col gap-10 py-4 pt-8 max-w-[90%] ml-20 relative"
+      className="container flex flex-col gap-10 py-4 pt-8 max-w-[90%] sm:left-20 sm:px-4 relative left-6"
     >
       {/* Work Section */}
       <div className="flex flex-col gap-8">

@@ -2,19 +2,26 @@ import React from 'react';
 
 const Contact = () => {
   return (
-  <div className="container py-16 relative max-w-[90%] ml-20" id='contact'>
-    <div className='flex felx-col min-[560px]:flex-row items-center justify-between gap-8'>
-      <div className='flex flex-col gap-4'>
-        <h2 class="scroll-m-20 font-primary text-5xl font-extrabold tracking-tight lg:text-7xl">Let's <span className="bg-gradient-to-r from-[#ff80b5] via-[#ff80b5] to-[#9089fc] bg-clip-text text-transparent">
-            {" "}
-            Talk
-          </span>{" "}</h2>
-        <div className='text-xl lg:text-sl text-muted-foreground text-gray-400'>
-          <p>Got a question, proposal, project, or want to work together on something?</p>
-          <a href="mailto:shrekarreddy7@gmail.com" class="underline underline-offset-4 hover:text-foreground transition">Send me an email</a>
+    <div className="container py-16 relative max-w-[90%] sm:left-20 sm:px-4 left-6" id="contact">
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-8">
+        <div className="flex flex-col gap-4">
+          <h2 className="scroll-m-20 font-primary text-5xl font-extrabold tracking-tight lg:text-7xl">
+            Let's{' '}
+            <span className="bg-gradient-to-r from-[#ff80b5] via-[#ff80b5] to-[#9089fc] bg-clip-text text-transparent">
+              Talk
+            </span>
+          </h2>
+          <div className="text-xl lg:text-sl text-muted-foreground text-gray-400">
+            <p>Got a question, proposal, project, or want to work together on something?</p>
+            <a
+              href="mailto:shrekarreddy7@gmail.com"
+              className="underline underline-offset-4 hover:text-foreground transition"
+            >
+              Send me an email
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="flex-shrink-0">
+        <div class="flex-shrink-0">
         <div class="rounded-lg border bg-primary text-card-foreground shadow-sm pt-6">
           <div class="p-6 pt-0">
             <div class="w-full grid gap-4 grid-cols-3">
@@ -80,10 +87,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      </div>
     </div>
-  </div>
-  
-);
+  );
 };
 
 export default Contact;
