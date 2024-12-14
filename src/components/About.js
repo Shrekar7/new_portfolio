@@ -34,16 +34,17 @@ const About = () => {
               collaborations.
             </p>
             <a
-              href="https://drive.google.com/file/d/1HIzEaA3bdBRWxtxtENi5b2VrYq2fZrtF/view?usp=drive_linkx"
+              href="https://drive.google.com/file/d/1HIzEaA3bdBRWxtxtENi5b2VrYq2fZrtF/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center font-secondary justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 bg-white text-black hover:bg-white/10 hover:text-white h-10 px-4 py-2 self-start"
+              aria-label="View my resume"
             >
               View Resume
             </a>
           </div>
 
-          {/* Right Column (Box) */}
+          {/* Right Column (Skills) */}
           <div className="lg:col-span-2 rounded-lg border border-purple-500 bg-primary text-white shadow-sm p-4 sm:p-6">
             <div className="flex flex-col gap-4">
               {/* Languages and Markup */}
@@ -83,7 +84,7 @@ const About = () => {
                 <h3 className="text-md sm:text-lg font-semibold tracking-tight">
                   Tools
                 </h3>
-                <p className="leading-6 text-gray-700">
+                <p className="leading-6 text-gray-600">
                   Git, GitHub, Bash, VSCode, Postman
                 </p>
               </div>
